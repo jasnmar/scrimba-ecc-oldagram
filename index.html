@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo-image" src="./images/logo.png" alt="Oldagram Logo">
+        <img class="avatar" src="./images/user-avatar.png" alt="Per's Avatar">
+    </header>
+    <main>
+        <div id="root">
+            <div class="card">
+                <div class="card-header">
+                    <img class="avatar" src="./images/avatar-vangogh.jpg" alt="Vangogh's Avatar">
+                    <div class="userinfo">
+                        <p class="name">
+                            Vincent van Gogh
+                        </p>
+                        <p class="location">
+                            Zudert, Netherlands
+                        </p>
+                    </div>
+                </div>
+               
+                <img class="post-body" src="./images/post-vangogh.jpg" alt="Vangogh Self Portrait">
+                <div class="controls">
+                    <button class="btn" id="like"><img class="btn-image" src="./images/icon-heart.png"></button>
+                    <button class="btn" id="comment"><img class="btn-image" src="./images/icon-comment.png"></button>
+                    <button class="btn" id="send"><img class="btn-image" src="./images/icon-dm.png"></button>
+                </div>
+                    <p class="likes-count">21,492 likes</p>
+                <p class="other-comment"><span class="username">vincey1853</span> just took a few mushrooms lol</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
